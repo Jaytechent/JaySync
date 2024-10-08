@@ -33,10 +33,13 @@
   
        BACKEND_URL=localhost:5000
 
-3.  cd backend
-    npm install
+3. Cd to the backend part of the app and install dependencies:
+   
+   cd backend
+   npm install
+   node server.js
 
-4. Create a .env file and add your API keys and MongoDB URL:
+5. Create a .env file and add your API keys and MongoDB URL:
 
 TWITTER_API_KEY=<your-twitter-api-key>
 FACEBOOK_API_KEY=<your-facebook-api-key>
@@ -50,7 +53,7 @@ Endpoint	Method	Description
 /api/post	POST	Create a post across platforms
 
 **HOW TO CONTRIBUTE**
-**Decide any feature to add or improvement to the UI or any part of the app*
+**Decide any feature to add or improvement of any part of the app**
 Fork the repo
 Create a feature branch (git checkout -b feature/AmazingFeature)
 Commit your changes (git commit -m 'Add AmazingFeature')
