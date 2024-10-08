@@ -33,38 +33,47 @@
   
        BACKEND_URL=localhost:5000
 
-3. Cd to the backend part of the app and install dependencies:
-   
+3. cd to the backend part of the app and install dependencies:
+   ```bash
    cd backend
    npm install
    node server.js
 
-5. Create a .env file and add your API keys and MongoDB URL:
-
-TWITTER_API_KEY=<your-twitter-api-key>
-FACEBOOK_API_KEY=<your-facebook-api-key>
-INSTAGRAM_API_KEY=<your-instagram-api-key>
-TIKTOK_API_KEY=<your-tiktok-api-key>
-MONGO_URI=<your-mongodb-uri>
-JWT_SECRET= *Add secret token*
-
-**API Endpoints**
-Endpoint	Method	Description
-/api/post	POST	Create a post across platforms
-
-**HOW TO CONTRIBUTE**
-**Decide any feature to add or improvement of any part of the app**
-Fork the repo
-Create a feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+4. Create a .env file and add your API keys and MongoDB URL:
+   ```bash
+   TWITTER_API_KEY=<your-twitter-api-key>
+   FACEBOOK_API_KEY=<your-facebook-api-key>
+   INSTAGRAM_API_KEY=<your-instagram-api-key>
+   TIKTOK_API_KEY=<your-tiktok-api-key>
+   MONGO_URI=<your-mongodb-uri>
+   JWT_SECRET= Add secret token
 
 
-## Technologies Used
-- **Node.js**: JavaScript runtime for building server-side applications.
-- **Express.js**: Web application framework for Node.js, used to build APIs.
-- **MongoDB**: NoSQL database for storing user data and posts.
+5. **API Endpoints**
+   
+   Endpoint	Method	Description
+   
+   /api/post	POST	Create a post across platforms
+
+7. **HOW TO CONTRIBUTE**
+
+   **Decide any feature to add or improvement of any part of the app**
+   
+   Fork the repo
+   
+   Create a feature branch (git checkout -b feature/AmazingFeature)
+   
+   Commit your changes (git commit -m 'Add AmazingFeature')
+   
+   Push to the branch (git push origin feature/AmazingFeature)
+   
+   Open a Pull Request
+
+
+9. ## Technologies Used
+  - **Node.js**: JavaScript runtime for building server-side applications.
+  - **Express.js**: Web application framework for Node.js, used to build APIs.
+  - **MongoDB**: NoSQL database for storing user data and posts.
 - **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js.
 - **React**: Frontend library for building user interfaces.
 - **Vite**: Next-generation frontend build tool for faster development and optimized builds.
